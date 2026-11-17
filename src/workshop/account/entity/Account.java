@@ -6,20 +6,6 @@ public class Account {
     private int balance;
 
     //Method 선언
-    public void setCustId(String custId) {
-        this.custId = custId;
-    }
-
-    public void setAcctId(String acctId) {
-        this.acctId = acctId;
-    }
-
-    public String getAcctId() {
-        return acctId;
-    }
-
-    public String getCustId() {
-        return custId;
-    }
+    
 
 }
