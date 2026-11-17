@@ -12,7 +12,7 @@ public class PersonManager {
         
         char gender = '여';
         
-        System.out.println("성별 " + gender + "(은)는");
+        System.out.println("성별 " + gender + " (은)는");
         System.out.println(pManager.findByGender(persons, gender) + "명 입니다.");
     }
 
