@@ -8,6 +8,7 @@ public class PersonManager {
         PersonEntity[] persons = new PersonEntity[10];
         pManager.fillPersons(persons);
         pManager.showPersons(persons);
+        pManager.findByGender(persons, 0);
     }
 
     //PersonEntity 타입 배열을 채우는 메소드
@@ -37,6 +38,9 @@ public class PersonManager {
     //입력받은 성별 값과 일치하는 PersonEntity 객체의 건수를 찾는 메서드
     public int findByGender(PersonEntity[] persons, char gender) {
         int personCount = 0;
+        for (PersonEntity person : persons) {
+            
+        }
         return personCount;
     }
 
