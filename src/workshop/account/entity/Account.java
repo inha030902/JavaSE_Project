@@ -27,10 +27,10 @@ public class Account {
     }
 
     public void deposit(int amount) {
-        this.balance += balance;
+        this.balance += amount;
     }
 
     public void withdraw(int amount){
-        this.balance -= balance;
+        this.balance -= amount;
     }
 }
