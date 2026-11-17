@@ -23,8 +23,8 @@ public class TestIntArray {
 		int[] nums; 
 		nums = new int[3];
 		System.out.println(nums.length); //3
-		System.out.println(nums);
-		System.out.println(nums[0]);
+		System.out.println(nums); 
+		System.out.println(nums[0]); // 0
 		//System.out.println(nums[3]);  ArrayIndexOutofBoundsException 발생
 		fillArray(nums);
 		
