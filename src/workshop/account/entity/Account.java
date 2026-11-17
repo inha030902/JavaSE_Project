@@ -1,13 +1,13 @@
 package workshop.account.entity;
 
-public class Account {
+public class Account extends Object{
     private String custId;
     private String acctId;
     private int balance;
 
     public Account(){
     }
-    
+
     public Account(String custId, String acctId, int balance) {
         this.custId = custId;
         this.acctId = acctId;
