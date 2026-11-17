@@ -14,10 +14,6 @@ public class Account {
         this.acctId = acctId;
     }
 
-    public void setBalance(int balance) {
-        this.balance = balance;
-    }
-
     public String getAcctId() {
         return acctId;
     }
