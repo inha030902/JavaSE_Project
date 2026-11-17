@@ -17,7 +17,8 @@ public class TestMyDateArray {
 		test.printArray(dates);
 		
 	}//main
-	
+
+	//non-static 
 	public void fillArray(MyDate[] dates) {
 		dates[0] = new MyDate(2013, 7, 17);
 		dates[1] = new MyDate(2014, 8, 1);
