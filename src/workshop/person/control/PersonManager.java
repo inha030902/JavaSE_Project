@@ -58,7 +58,8 @@ public class PersonManager {
     public int showPerson(PersonEntity[] persons, String name) {
         for (PersonEntity person : persons) {
             if (person.getName().equals(name)){
-                
+
+                break;
             }
         }
     }
