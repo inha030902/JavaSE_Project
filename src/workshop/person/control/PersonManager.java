@@ -58,7 +58,10 @@ public class PersonManager {
     public int showPerson(PersonEntity[] persons, String name) {
         for (PersonEntity person : persons) {
             if (person.getName().equals(name)){
-
+                System.out.println("[이름] " + person.getName());
+                System.out.println("[성별] " + person.getGender());
+                System.out.println("[주민번호] " + person.getSsn());
+                System.out.println("[주소] " + person.getAddress());
                 break;
             }
         }
