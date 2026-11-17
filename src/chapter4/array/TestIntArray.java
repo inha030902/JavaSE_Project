@@ -13,7 +13,7 @@ public class TestIntArray {
 			System.out.println(nums2[i]);
 		}
 		
-		//enhanced for loop
+		//enhanced for loop -> 장점은 배열이던지 커넥션이던지 상관없이 사용 가능
 		for (int value : nums2) {
 			System.out.println(value);
 		}
