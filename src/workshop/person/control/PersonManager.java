@@ -8,7 +8,12 @@ public class PersonManager {
         PersonEntity[] persons = new PersonEntity[10];
         pManager.fillPersons(persons);
         pManager.showPersons(persons);
-        pManager.findByGender(persons, 0);
+        
+        
+        char gender = '여';
+        
+        System.out.println("성별 " + gender + "(은)는");
+        System.out.println(pManager.findByGender(persons, gender) + "명 입니다.");
     }
 
     //PersonEntity 타입 배열을 채우는 메소드
