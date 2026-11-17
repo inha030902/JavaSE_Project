@@ -7,7 +7,7 @@ public class PersonManager {
         //PersonEntity 배열 선언 및 생성
         PersonEntity[] persons = new PersonEntity[10];
         pManager.fillPersons(persons);
-        
+        pManager.showPersons(persons);
     }
 
     //PersonEntity 타입 배열을 채우는 메소드
@@ -22,12 +22,13 @@ public class PersonManager {
         persons[7] = new PersonEntity("유성미","7103282025101", "서울 은평구", "02-452-0939");
         persons[8] = new PersonEntity("황재현","7806231031101", "인천 중구", "032-327-2202");
         persons[9] = new PersonEntity("최철수","7601211025101", "인천 계양구", "032-122-7832");
-// Implementation for filling person array
+
     }
 
     //PersonEntity 타입 배열을 출력하는 메소드
     public void showPersons(PersonEntity[] persons) {
-        // Implementation for showing person array
+        
+       
     }
 
     //입력받은 성별 값과 일치하는 PersonEntity 객체의 건수를 찾는 메서드
