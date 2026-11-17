@@ -12,12 +12,15 @@ public class PersonEntity {
     
     }
 
-    public PersonEntity(String name, String ssn, String address, String phone) {
-        super();
-        this.name = name;
-        this.ssn = ssn;
-        this.address = address;
-        this.phone = phone;
+    public PersonEntity(String name, String ssn, String address, String phone) {    
+        // this.name = name;
+        // this.ssn = ssn;
+        // this.address = address;
+        // this.phone = phone;
+        setName(name);
+        setSsn(ssn); // 이건 반드시 setSsn()을 호출해야 이상한 값이 들어오지 않음.
+        setAddress(address);
+        setPhone(phone);
     }
 
     public String getName() {
