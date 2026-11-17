@@ -24,7 +24,7 @@ public class TestMyDateArray {
 		dates[1] = new MyDate(2014, 8, 1);
 		dates[2] = new MyDate(2015, 9, 3);
 	}
-	}
+	
 	public void printArray(MyDate[] dates) {
 		//3.배열 출력
 		MyDate date = null;

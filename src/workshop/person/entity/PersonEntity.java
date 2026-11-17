@@ -7,4 +7,8 @@ public class PersonEntity {
 	private String ssn; 
 	private String address; 
 	private String phone;
+
+    public PersonEntity() {
+    
+    }
 }
