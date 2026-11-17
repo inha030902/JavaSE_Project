@@ -1,6 +1,9 @@
 package workshop.account.control;
 
+import workshop.account.entity.Account;
+
 public class AccountTest {
-    public static void main(String[] args)
+    public static void main(String[] args) {
         new Account();
+    }
 }
