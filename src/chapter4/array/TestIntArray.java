@@ -14,8 +14,8 @@ public class TestIntArray {
 		}
 		
 		//enhanced for loop
-		for (int i : nums2) {
-			System.out.println(i);
+		for (int value : nums2) {
+			System.out.println(value);
 		}
 		System.out.println("배열값의 합은 :" + getSum(nums2));
 		
