@@ -18,6 +18,8 @@ public class TestArrayList {
 	
 	public static void myDateArrayList() {
 		//MyDate 타입의 객체만을 담을 수 있는 ArrayList 를 생성
+		ArrayList list1 = new ArrayList();
+
 		List<MyDate> list = new ArrayList<MyDate>();
 		
 		list.add(new MyDate(2013, 7, 23));
