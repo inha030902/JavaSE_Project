@@ -22,6 +22,7 @@ public class AccountTest {
 
         //toSTRING();
         //getClass().getName() + "@" + Integer.toHexString(hashCode());
+        //workshop.account.entity.Account@15db9742 -> 오버라이딩 안하지 않으면 이렇게 뜸
         System.out.println(account2); // toString을 호출하지 않아도 자동으로 호출됨
     }
 }
