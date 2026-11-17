@@ -22,7 +22,7 @@ public class TestIntArray {
 		//배열을 선언 및 생성
 		int[] nums; 
 		nums = new int[3];
-		System.out.println(nums.length);
+		System.out.println(nums.length); //3
 		System.out.println(nums);
 		System.out.println(nums[0]);
 		//System.out.println(nums[3]);  ArrayIndexOutofBoundsException 발생
