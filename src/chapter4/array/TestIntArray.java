@@ -6,7 +6,7 @@ public class TestIntArray {
 		//TODO int 타입의 1차원 배열을 연습해봄 완성을 덜함
 		
 		//int 타입의 배열을 선언
-		int[] nums;
+
 		int nums2[] = {100,200,300,400,500,600};
 		//기존의 for loop
 		for (int i = 0; i < nums2.length; i++) {
@@ -20,13 +20,13 @@ public class TestIntArray {
 		System.out.println("배열값의 합은 :" + getSum(nums2));
 		
 		//배열을 선언 및 생성
-		int[] nums; 
+		int nums[]; //배열 선언
 		nums = new int[3];
 		System.out.println(nums.length); //3
 		System.out.println(nums); 
 		System.out.println(nums[0]); // 0
 		//System.out.println(nums[3]);  ArrayIndexOutofBoundsException 발생
-		fillArray(nums);
+		fillArray(nums); // 같은 static 영역에 있는 메서드이므로 객체 생성 없이 바로 호출 가능
 		
 		printArray(nums);
 		
