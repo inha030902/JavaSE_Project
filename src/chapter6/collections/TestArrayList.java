@@ -31,7 +31,8 @@ public class TestArrayList {
 		// list2.add(new Integer(10)); -- String 타입만 담을 수 있으므로, Integer 타입의 객체를 담으면 컴파일 에러가 발생함
 
 		//Genrics 를 사용하여 MyDate 타입의 객체만 담을 수 있는 ArrayList 를 생성
-		ArrayList<Mydate> list3 = new ArrayList<>();		List<MyDate> list = new ArrayList<MyDate>();
+		ArrayList<MyDate> list3 = new ArrayList<>();
+		List<MyDate> list = new ArrayList<MyDate>();
 		
 		list.add(new MyDate(2013, 7, 23));
 		list.add(new MyDate(2013, 8, 15));
