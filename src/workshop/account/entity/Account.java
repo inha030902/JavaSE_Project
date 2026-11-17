@@ -40,7 +40,10 @@ public class Account extends Object{
     }
 
     public void withdraw(int amount){
-        if(amount > balance)
+        if(amount > balance){
+            //Exception을 강제로 발생시킴
+            
+        }
         this.balance -= amount;
     }
 
