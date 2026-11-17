@@ -23,7 +23,7 @@ public class TestMyDateArray {
 		dates[0] = new MyDate(2013, 7, 17);
 		dates[1] = new MyDate(2014, 8, 1);
 		dates[2] = new MyDate(2015, 9, 3);
-	
+	}
 	}
 	public void printArray(MyDate[] dates) {
 		//3.배열 출력
