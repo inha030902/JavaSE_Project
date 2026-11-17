@@ -14,6 +14,9 @@ public class PersonManager {
         
         System.out.println("성별 " + gender + " (은)는");
         System.out.println(pManager.findByGender(persons, gender) + "명 입니다.");
+    
+        String name = "김하늘";
+        pManager.showPerson(persons, name);
     }
 
     //PersonEntity 타입 배열을 채우는 메소드
