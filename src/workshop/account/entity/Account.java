@@ -10,5 +10,7 @@ public class Account {
         this.custId = custId;
     }
 
-    public
+    public String getCustId() {
+        return custId;
+    }
 }
