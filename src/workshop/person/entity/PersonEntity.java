@@ -1,8 +1,8 @@
 package workshop.person.entity;
 
 public class PersonEntity {
-    
-    String name; 
+
+    private String name; 
 	char gender;
 	String ssn; 
 	String address; 
