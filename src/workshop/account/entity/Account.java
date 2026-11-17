@@ -10,7 +10,16 @@ public class Account {
         this.custId = custId;
     }
 
+    public void setAcctId(String acctId) {
+        this.acctId = acctId;
+    }
+
+    public String getAcctId() {
+        return acctId;
+    }
+
     public String getCustId() {
         return custId;
     }
+
 }
