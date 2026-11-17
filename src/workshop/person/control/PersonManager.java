@@ -27,7 +27,10 @@ public class PersonManager {
 
     //PersonEntity 타입 배열을 출력하는 메소드
     public void showPersons(PersonEntity[] persons) {
-        
+        for (PersonEntity person : persons) {
+            
+            
+        }
        
     }
 
