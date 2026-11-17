@@ -40,6 +40,7 @@ public class Account extends Object{
     }
 
     public void withdraw(int amount){
+        if(amount > balance)
         this.balance -= amount;
     }
 
@@ -47,5 +48,5 @@ public class Account extends Object{
     public String toString() {
         return "Account [custId=" + custId + ", acctId=" + acctId + ", balance=" + balance + "]";
     }
-    
+
 }
