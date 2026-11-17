@@ -15,4 +15,16 @@ public class PersonManager {
     public void showPersons(PersonEntity[] persons) {
         // Implementation for showing person array
     }
+
+    //입력받은 성별 값과 일치하는 PersonEntity 객체의 건수를 찾는 메서드
+    public int findByGender(PersonEntity[] persons, char gender) {
+        int personCount = 0;
+        return personCount;
+    }
+
+    //입력받은 이름 값과 일치하는 PersonEntity 객체를 찾아서 세부정보를 출력하는 메서드
+    public int showPerson(PersonEntity[] persons, String name) {
+        int personCount = 0;
+        return personCount;
+    }
 }
