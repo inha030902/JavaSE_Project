@@ -56,7 +56,6 @@ public class PersonManager {
 
     //입력받은 이름 값과 일치하는 PersonEntity 객체를 찾아서 세부정보를 출력하는 메서드
     public int showPerson(PersonEntity[] persons, String name) {
-        int personCount = 0;
-        return personCount;
+        
     }
 }
