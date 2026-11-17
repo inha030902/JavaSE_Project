@@ -12,7 +12,7 @@ public class TestMyDateArray {
 		//2. 배열 채우기
 		test.fillArray(dates);
 		
-		System.out.println(dates[2].getMonth());
+		System.out.println(dates[2].getMonth()); // 9
 		//3. 배열 출력하기
 		test.printArray(dates);
 		
@@ -33,6 +33,7 @@ public class TestMyDateArray {
 			System.out.println(date.getYear()+"-"+date.getMonth()+"-"+date.getDay());
 		}
 		
+		// enhanced for loop
 		for (MyDate myDate : dates) {
 			System.out.println(myDate.getYear()+"-"+myDate.getMonth()+"-"+myDate.getDay());
 		}	
