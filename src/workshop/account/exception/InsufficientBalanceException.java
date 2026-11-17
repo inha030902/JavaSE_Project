@@ -6,16 +6,16 @@ Account의 잔액(balance)가 부족할 때 사용되는 사용자정의 Excepti
 
 public class InsufficientBalanceException extends Exception {
     // 현재 잔액
-    private int currentBalnace;
+    private int currentBalance;
 
-    public InsufficientBalanceException(String message, int currentBalnace) {
+    public InsufficientBalanceException(String message, int currentBalance) {
         //부모 클래스의 생성자를 호출한다.
         super(message);
-        this.currentBalnace = currentBalnace;
+        this.currentBalance = currentBalance;
     }
     
-    public int getCurrentBalnace() {
-        return currentBalnace;
+    public int getCurrentBalance() {
+        return currentBalance;
     }
 
 }
