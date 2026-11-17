@@ -26,8 +26,8 @@ public class AccountTest {
             //getClass().getName() + "@" + Integer.toHexString(hashCode());
             //workshop.account.entity.Account@15db9742 -> 오버라이딩 안하지 않으면 이렇게 뜸
             System.out.println(account2); // toString을 호출하지 않아도 자동으로 호출됨
-        }catch (InsufficientBalanceException e){
-            System.out.println(e.getMessage() + e.getCurrentBalnace());
+        } catch (InsufficientBalanceException e){
+            System.err.println("Error 메시지 =" + e.getMessage() + e.getCurrentBalance());
         }
     }
 }
