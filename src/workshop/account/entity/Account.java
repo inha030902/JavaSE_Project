@@ -5,6 +5,11 @@ public class Account extends Object{
     private String acctId;
     private int balance;
 
+    @Override
+    public String toString() {
+        return "Account [custId=" + custId + ", acctId=" + acctId + ", balance=" + balance + "]";
+    }
+
     public Account(){
     }
 
