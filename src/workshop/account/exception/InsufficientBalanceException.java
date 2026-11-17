@@ -14,6 +14,9 @@ public class InsufficientBalanceException extends Exception {
         this.currentBalnace = currentBalnace;
     }
     
+    public int getCurrentBalnace() {
+        return currentBalnace;
+    }
 
 }
 
