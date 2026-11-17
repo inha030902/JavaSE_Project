@@ -5,11 +5,6 @@ public class Account extends Object{
     private String acctId;
     private int balance;
 
-    @Override // @Override 어노테이션은 부모 클래스의 메서드를 오버라이딩할 때 사용, 컴파일 시 부모 클래스에 해당 메서드가 존재하지 않으면 에러 발생
-    public String toString() {
-        return "Account [custId=" + custId + ", acctId=" + acctId + ", balance=" + balance + "]";
-    }
-
     public Account(){
     }
 
@@ -47,4 +42,10 @@ public class Account extends Object{
     public void withdraw(int amount){
         this.balance -= amount;
     }
+
+    @Override // @Override 어노테이션은 부모 클래스의 메서드를 오버라이딩할 때 사용, 컴파일 시 부모 클래스에 해당 메서드가 존재하지 않으면 에러 발생
+    public String toString() {
+        return "Account [custId=" + custId + ", acctId=" + acctId + ", balance=" + balance + "]";
+    }
+    
 }
