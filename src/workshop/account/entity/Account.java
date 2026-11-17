@@ -40,7 +40,7 @@ public class Account extends Object{
     }
 
     public void withdraw(int amount) throws InsufficientBalanceException {
-        if(amount > balance){
+        if(amount > this.balance){
             //Exception을 강제로 발생시킴
             throw new InsufficientBalanceException("잔액이 부족합니다. 현재 잔액은 = ", this.balance);
         }
