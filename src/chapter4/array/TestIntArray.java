@@ -8,6 +8,12 @@ public class TestIntArray {
 		//int 타입의 배열을 선언
 		int[] nums;
 		int nums2[] = {100,200,300,400,500,600};
+		//기존의 for loop
+		for (int i = 0; i < nums2.length; i++) {
+			System.out.println(nums2[i]);
+		}
+		
+		//enhanced for loop
 		for (int i : nums2) {
 			System.out.println(i);
 		}
