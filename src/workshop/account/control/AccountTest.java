@@ -1,6 +1,7 @@
 package workshop.account.control;
 
 import workshop.account.entity.Account;
+import workshop.account.exception.InsufficientBalanceException;
 
 public class AccountTest {
     public static void main(String[] args) {
