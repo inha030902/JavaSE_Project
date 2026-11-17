@@ -8,9 +8,9 @@ public class InsufficientBalanceException extends Exception {
     // 현재 잔액]
     private int currentBalnace;
 
-    public InsufficientBalanceException(String arg0, int currentBalnace) {
+    public InsufficientBalanceException(String message, int currentBalnace) {
         //부모 클래스의 생성자를 호출한다.
-        super(arg0);
+        super(message);
         this.currentBalnace = currentBalnace;
     }
     
