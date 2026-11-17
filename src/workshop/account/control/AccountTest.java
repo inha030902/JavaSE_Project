@@ -21,6 +21,7 @@ public class AccountTest {
         System.out.println("잔액 = " + account2.getBalance());
 
         //toSTRING();
+        //getClass().getName() + "@" + Integer.toHexString(hashCode());
         System.out.println(account2); // toString을 호출하지 않아도 자동으로 호출됨
     }
 }
