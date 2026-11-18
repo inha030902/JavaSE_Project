@@ -25,8 +25,9 @@ public class ManageBook {
 		
 //		Magazine mag = (Magazine)pub;
 //		mag.getPublishingPeriod();
-		((Magazine)pub).getPublishingPeriod();
-
+		if(pub instanceof Magazine){
+            ((Magazine)pub).getPublishingPeriod();
+        }
 	}
 
 }
