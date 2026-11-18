@@ -22,4 +22,5 @@ public abstract class Employee {
         return this.salary;
     }
 
+    public abstract void manageSalary(double rate);
 }
