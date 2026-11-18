@@ -10,6 +10,11 @@ public class InFlexibleCompanyDemo {
 
         //Employee 타입
         System.out.println(manager.getName() + " " + manager.getSalary());
+        // Casting Employee를 Manager로 형변환
+        Manager m = (Manager) manager; // 다운캐스팅
+        m.getDepartment();
+
+        
         //Manager 타입은 부서명까지 가능
         System.out.println(manager2.getName() + " " + manager2.getSalary() + " " + manager2.getDepartment());
 
