@@ -28,6 +28,8 @@ public class ManageBook {
 		if(pub instanceof Magazine){
             ((Magazine)pub).getPublishingPeriod();
         }
+
+        //Publication 타입 배열을 선언 및 생성
 	}
 
 }
