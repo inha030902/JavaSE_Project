@@ -29,7 +29,7 @@ public class ManageBook {
             ((Magazine)pub).getPublishingPeriod();
         }
 
-        //Publication 타입 배열을 선언 및 생성
+        //Publication 부모 타입 배열을 선언 및 생성
 	}
 
 }
