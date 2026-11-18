@@ -1,4 +1,5 @@
 package workshop.person.control;
+import java.util.ArrayList;
 import java.util.ListIterator;
 
 import workshop.person.entity.PersonEntity;
@@ -8,7 +9,7 @@ public class PersonManagerArrayList {
         PersonManager pManager = new PersonManager();
         //PersonEntity 배열 선언 및 생성
         //PersonEntity[] persons = new PersonEntity[10];
-        ListIterator
+        ListIterator<PersonEntity> persons = new ArrayList<>();
         pManager.fillPersons(persons);
         pManager.showPersons(persons);
         
