@@ -9,8 +9,9 @@ public class Employee {
         super();
     }
 
-    public Employee() {
-        super();
+   public Employee(String name, double salary) {
+        this.name = name;
+        this.salary = salary;
     }
 
     public String getName() {
