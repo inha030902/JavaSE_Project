@@ -48,7 +48,9 @@ public class ManageBook {
     //pub는 다형적 아규먼트(Polymorphic Argument) good (1)
     public static void modifyPrice(Publication pub) {
         double rate = 0.0;
-        
+        if(pub instanceof Magazine){
+            rate = 0.6;
+        }
     }
     /* (2) 객체지향적이지 않은 코드 bad
     public static void modifyPrice(Magazine ma) {
