@@ -1,6 +1,6 @@
 package workshop.person.control;
 import java.util.ArrayList;
-import java.util.ListIterator;
+import java.util.List;
 
 import workshop.person.entity.PersonEntity;
 
