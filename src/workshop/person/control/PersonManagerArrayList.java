@@ -48,7 +48,7 @@ public class PersonManagerArrayList {
     }
 
     //입력받은 성별 값과 일치하는 PersonEntity 객체의 건수를 찾는 메서드
-    public int findByGender(PersonEntity[] persons, char gender) {
+    public int findByGender(List<PersonEntity> persons, char gender) {
         int personCount = 0;
         for (PersonEntity person : persons) {
             if (person.getGender() == gender) {
@@ -59,7 +59,7 @@ public class PersonManagerArrayList {
     }
 
     //입력받은 이름 값과 일치하는 PersonEntity 객체를 찾아서 세부정보를 출력하는 메서드
-    public void showPerson(PersonEntity[] persons, String name) {
+    public void showPerson(List<PersonEntity> persons, String name) {
         for (PersonEntity person : persons) {
             if (person.getName().equals(name)){
                 System.out.println("[이름] " + person.getName());
