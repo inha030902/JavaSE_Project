@@ -51,6 +51,16 @@ public class ManageBook {
         if(pub instanceof Magazine){
             rate = 0.6;
         }
+        
+        if(pub instanceof Novel){
+            rate = 0.8;
+        }
+
+        if(pub instanceof ReferenceBook) {
+            rate = 0.9;
+        }
+
+        pub.setPrice(pub.getPrice() * rate);
     }
     /* (2) 객체지향적이지 않은 코드 bad
     public static void modifyPrice(Magazine ma) {
