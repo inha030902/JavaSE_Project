@@ -7,5 +7,6 @@ public class Animal {
         this.legs = legs;
     }
 
+    public abstract void eat();
     
 }
