@@ -31,7 +31,7 @@ public class ManageBook {
             ((Magazine)pub).getPublishingPeriod();
         }
 
-        //Publication 부모 타입 배열을 선언 및 생성
+        //Publication 부모 타입 배열을 선언 및 생성 Heterogeneous Collection
 		Publication[] pubs = new Publication[5];
 		pubs[0] = new Magazine("마이크로소프트","2007-10-01",328,9900,"매월");
 		pubs[1] = new Magazine("경영과컴퓨터","2007-10-03",316,9000,"매월");
@@ -45,7 +45,8 @@ public class ManageBook {
     
     }//main
 
+    //pub는 다형적 아규먼트(Polymorphic Argument)
     public static void modifyPrice(Publication pub) {
-        
+
     }
 }
