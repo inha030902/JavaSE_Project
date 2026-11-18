@@ -44,33 +44,10 @@ public class InFlexibleCompanyDemo {
 
             System.out.println("올린 후 월급입니다.");
             employee.manageSalary(10);
-            System.out.println(employee.getName() + "의 현재 월급은 " + employee.getSalary());
+            System.out.println(employee.getName() + "의 현재 월급은 " + employee.getSalary() + " 만원 입니다");
     
         }
-        
-
-
-        
-        
-        System.out.println("현재 월급입니다.");
-        
-        System.out.println(mereClerk1.getName() + "의 현재 월급은 " + mereClerk1.getSalary() + " 만원 입니다.");
-        System.out.println(mereClerk2.getName() + "의 현재 월급은 " + mereClerk2.getSalary() + " 만원 입니다.");
-        System.out.println(manager.getName() + "의 현재 월급은 " + manager.getSalary() + " 만원 입니다.");
-
-        System.out.println("");
-        
-        
-        System.out.println("올린 후의 월급입니다.");
-        
-        mereClerk1.manageSalary(10);
-        System.out.println(mereClerk1.getName() + "의 현재 월급은 " + mereClerk1.getSalary() + " 만원 입니다.");
-        
-        mereClerk2.manageSalary(10);
-        System.out.println(mereClerk2.getName() + "의 현재 월급은 " + mereClerk2.getSalary() + " 만원 입니다.");
-        
-        manager.manageSalary(10);
-        System.out.println(manager.getName() + "의 현재 월급은 " + manager.getSalary() + " 만원 입니다.");
+    
         
    }
 }
