@@ -7,8 +7,10 @@ public class Animal {
         this.legs = legs;
     }
 
+    //abstract method
     public abstract void eat();
 
+    //concrete method
     public void walk () {
         System.out.println("동물은" + legs + " 발로 걷는다!");
     }
