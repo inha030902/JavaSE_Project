@@ -7,6 +7,12 @@ public class InFlexibleCompanyDemo {
         Employee mereClerk2= new MereClerk("영희", 100);
         Employee manager= new Manager("홍길동", 200, "인사부");
         Manager manager2 = new Manager("둘리", 250, "개발부");
+
+        //Employee 타입
+        System.out.println(manager.getName() + " " + manager.getSalary());
+        //Manager 타입
+        System.out.println((manager2.getName() + " " + manager2.getSalary() + ""));
+
         // MereClerk mereClerk1 = new MereClerk("철수", 100);
         // MereClerk mereClerk2 = new MereClerk("영희", 100);
         // Manager manager = new Manager("홍길동", 200);
