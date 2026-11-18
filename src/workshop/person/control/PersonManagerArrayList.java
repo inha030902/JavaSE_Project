@@ -39,7 +39,7 @@ public class PersonManagerArrayList {
     }
 
     //PersonEntity 타입 배열을 출력하는 메소드
-    public void showPersons(PersonEntity[] persons) {
+    public void showPersons(List<PersonEntity> persons) {
         for (PersonEntity person : persons) {
             System.out.println("[이름] " + person.getName() + "\t [성별]" + 
             person.getGender() + "\t [주소]" + person.getAddress());
