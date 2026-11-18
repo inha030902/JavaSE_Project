@@ -1,14 +1,14 @@
 package workshop.animal.entity;
 
-public class Spider extends Animal{
+public class Spider extends Animal {
 
-    public Spider() {
-        super(8);
-    }
+	public Spider() {
+		super(8);
+	}
 
+	@Override
+	public void eat() {
+		System.out.println("거미는 벌레를 먹어요!");
+	}
 
-    @Override 
-    public void eat() {
-        System.out.println("거미는 벌레를 먹어요!");
-    }
 }

@@ -9,19 +9,17 @@ public class Fish extends Animal implements Pet {
 	
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
+		return name;
 	}
 
 	@Override
 	public void setName(String name) {
-		// TODO Auto-generated method stub
-
-	}
+		
+    }
 
 	@Override
 	public void play() {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated metho
 
 	}
 
