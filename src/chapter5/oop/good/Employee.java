@@ -5,6 +5,10 @@ public class Employee {
     private String name;
     protected double salary;
 
+    public Employee(){
+        super();
+    }
+
     public Employee() {
         super();
     }
