@@ -43,6 +43,9 @@ public class ManageBook {
             System.out.println(publication);
         }
     
-    }
+    }//main
 
+    public static void modifyPrice(Publication pub) {
+        
+    }
 }
