@@ -49,7 +49,7 @@ public class ManageBook {
     public static void modifyPrice(Publication pub) {
 
     }
-    /* (2)
+    /* (2) 객체지향적이지 않은 코드 bad
     public static void modifyPrice(Magazine ma) {
 
     }
