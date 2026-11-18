@@ -1,6 +1,6 @@
 package workshop.animal.entity;
 
-public class Animal {
+public abstract class Animal {
     protected int legs;
 
     protected Animal(int legs) {
