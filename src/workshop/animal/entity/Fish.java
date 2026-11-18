@@ -14,19 +14,22 @@ public class Fish extends Animal implements Pet {
 
 	@Override
 	public void setName(String name) {
-		
+        this.name = name;
     }
 
 	@Override
 	public void play() {
-		// TODO Auto-generated metho
-
+        System.out.println("물고기는 어항에서 놀아요!");
 	}
 
 	@Override
 	public void eat() {
-		// TODO Auto-generated method stub
+        System.out.println("물고기는 플랑크톤을 먹어요!");
 
 	}
 
+    @Override
+    public void walk() {
+        System.out.println("물고기는 걷지 않고 물에서 헤엄친다!!");
+    }
 }
