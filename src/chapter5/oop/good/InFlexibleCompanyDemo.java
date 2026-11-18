@@ -5,7 +5,8 @@ public class InFlexibleCompanyDemo {
         // Employee e = new Employee();
         Employee mereClerk1= new MereClerk("철수", 100);
         Employee mereClerk2= new MereClerk("영희", 100);
-        Employee manager= new Manager("홍길동", 200);
+        Employee manager= new Manager("홍길동", 200, "인사부");
+        Manager manager2 = new Manager("둘리", 250, "개발부");
         // MereClerk mereClerk1 = new MereClerk("철수", 100);
         // MereClerk mereClerk2 = new MereClerk("영희", 100);
         // Manager manager = new Manager("홍길동", 200);
