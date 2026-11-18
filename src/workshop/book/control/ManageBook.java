@@ -49,4 +49,16 @@ public class ManageBook {
     public static void modifyPrice(Publication pub) {
 
     }
+
+    public static void modifyPrice(Magazine ma) {
+
+    }
+
+    public static void modifyPrice(Novel ma) {
+        
+    }
+
+    public static void modifyPrice(ReferenceBook ma) {
+        
+    }
 }
