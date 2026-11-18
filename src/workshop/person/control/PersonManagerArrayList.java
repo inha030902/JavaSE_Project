@@ -1,11 +1,14 @@
 package workshop.person.control;
+import java.util.ListIterator;
+
 import workshop.person.entity.PersonEntity;
 
-public class PersonManager {
+public class PersonManagerArrayList {
     public static void main(String[] args) {
         PersonManager pManager = new PersonManager();
         //PersonEntity 배열 선언 및 생성
-        PersonEntity[] persons = new PersonEntity[10];
+        //PersonEntity[] persons = new PersonEntity[10];
+        ListIterator
         pManager.fillPersons(persons);
         pManager.showPersons(persons);
         
