@@ -6,7 +6,7 @@ import workshop.person.entity.PersonEntity;
 
 public class PersonManagerArrayList {
     public static void main(String[] args) {
-        PersonManager pManager = new PersonManager();
+        PersonManagerArrayList pManager = new PersonManagerArrayList();
         //PersonEntity 배열 선언 및 생성
         //PersonEntity[] persons = new PersonEntity[10];
         List<PersonEntity> persons = new ArrayList<>();
