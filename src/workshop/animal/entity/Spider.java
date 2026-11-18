@@ -9,6 +9,6 @@ public class Spider extends Animal{
 
     @Override 
     public void eat() {
-
+        System.out.println("거미는 벌레를 먹어요!");
     }
 }
