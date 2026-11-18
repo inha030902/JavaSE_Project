@@ -18,21 +18,7 @@ public class TestArrayList {
 	
 	public static void myDateArrayList() {
 		//MyDate 타입의 객체만을 담을 수 있는 ArrayList 를 생성
-		ArrayList list1 = new ArrayList();
-		list1.add(new String("hello"));
-		list1.add(new Integer(10));
-
-		for(int i=0;i<list1.size();i++) {
-			String value = (String)list1.get(i);
-		}
-
-		ArrayList<String> list2 = new ArrayList<>(); // String 타입의 객체만 담을 수 있는 ArrayList 를 생성
-		list2.add(new String("aaa"));
-		// list2.add(new Integer(10)); -- String 타입만 담을 수 있으므로, Integer 타입의 객체를 담으면 컴파일 에러가 발생함
-
-		//Genrics 를 사용하여 MyDate 타입의 객체만 담을 수 있는 ArrayList 를 생성
-		ArrayList<MyDate> list3 = new ArrayList<>(); //(1), 많은 list를 호출 가능하지만, linkedlist로 바뀌면 문제 생김
-		List<MyDate> list = new ArrayList<>(); //(2), linkedlist로 바껴도 상관없음
+		List<MyDate> list = new ArrayList<MyDate>();
 		
 		list.add(new MyDate(2013, 7, 23));
 		list.add(new MyDate(2013, 8, 15));
