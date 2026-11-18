@@ -2,7 +2,7 @@ package chapter5.oop.good;
 
 public class Employee {
 
-    protected String name;
+    private String name;
     protected double salary;
 
     public Employee() {
